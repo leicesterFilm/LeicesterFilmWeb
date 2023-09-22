@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Using a UTF-8 character type (Ctrl+k to comment) -->
+	   <meta charset= "UTF-8">
+	   
+	   <!-- Sizes website for smart phone(etc.) use  -->
+	   <meta name="viewport" content= "width-device-width,initial-scale-1.0">
+	   
+	   <!-- Name of website -->
+	   <title> Leicester Film Society</title>
+	   
+	   <!-- add icon link -->
+        <link rel = "icon" href = "FilmSocLogo.png"
+        type = "image/x-icon">
+	   
+	   <!-- Link to reset css -->
+	   <link rel="stylesheet" href="FilmSocCss/reset.css">
+	   
+	   <!-- Links to main CSS -->
+	   <link rel="stylesheet" href="FilmSocCss/FilmSocMain.css">
+	   
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+	</head>
+	<body>
+		
+		<div class="header">
+			<img class="Logo" src="FilmSocLogo.png" alt= "Film Society Logo" width = 130 height=130 style="display:inline-block; margin-right:95%; margin-bottom:-80px;"/> 
+			<h1 class="Main_Title" style="display:inline-block;">Leicester Film Society</h1>
+		</div>
+		
+		
+		<!-- Navigation bar -->
+
+		<div class="Main_Nav">
+			<img class="NavImg" src="FilmSocCss/FilmReel.png" alt="FilmReel"/>
+				
+					<p class="HomeNav"><a href="FilmSoc.html" >HOME</a></p>
+					
+					<p class="CommitteeNav"><a href="MeetCommittee.html">MEET THE COMMITTEE</a></p>
+					
+					<p class="EventsNav"><a href="FilmEvents.html">OUR EVENTS</a></p>
+					
+					<p class="GalleryNav"><a href="FilmGallery.html">THE GALLERY</a></p>
+				
+		</div>
+		
+	<div class="AboutUs_Outer">
+		<div class="aboutUsDiv">
+			<p class="aboutUsTitle">About Us</p>
+			<div class="animate__animated animate__fadeInLeft">
+			<p class="aboutUsText">Welcome to the Leicester Film Society, where a passion for movies unites us all!  Join us every Monday for a dose of movie magic, where our film selections are curated through member votes, ensuring a dynamic range that caters to all tastes. But that's not all – our calendar is packed with exciting social events throughout the year. From sophisticated pub quizzes to thrilling bar crawls and exclusive group cinema outings (with sweet discounts for members), we've got your entertainment covered. Have questions? Reach out to us via email or follow us on social media for updates. Let's celebrate the love of film and community together!</p>
+			</div>
+		</div>
+	</div>
+		
+	
+<div class="inlineContainer">
+	<div class="HomeEvents_box" >	
+		<div class="HomeP_Events">
+		<p class="aboutUsTitle">Our Events</p>
+			<div class="animate__animated animate__zoomIn">
+			<p class="aboutUsText"> We're thrilled to present a diverse array of events exclusively tailored for our valued members this year. While we'll be unveiling all the details on our official social media platforms, we invite you to get a head start by checking out our  calendar on the events page. You'll also have the chance to explore highlights from some of our past gatherings on the gallery page. And as a little teaser, we're delighted to offer you a glimpse of event photos below. Stay connected and keep an eye out for updates – this year promises to be packed with engaging and memorable experiences!</p>
+			</div>
+		</div>
+		
+		<!-- Events Slideshow -->
+		<!-- ################# -->
+		
+		<div class="SlidwShow_OuterBox">
+		
+				<!-- Slideshow container -->
+		<div class="SlideShow_Box">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">1 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<!-- <div class="Slide_text">Caption Text</div> -->
+		  </div>
+
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">2 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<!-- <div class="Slide_text">Caption Two</div> -->
+		  </div>
+
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">3 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<!-- <div class="Slide_text">Caption Three</div> -->
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="Slide_prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="Slide_next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="Slide_dot" onclick="currentSlide(1)"></span>
+		  <span class="Slide_dot" onclick="currentSlide(2)"></span>
+		  <span class="Slide_dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+		<script>
+				let slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  let i;
+				  let slides = document.getElementsByClassName("mySlides");
+				  let dots = document.getElementsByClassName("Slide_dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+		</script>
+	
+	
+	</div>
+	
+	<!-- Where To Find Us -->
+	<!-- ################ -->
+	
+	<div class="Whereto_FindOuter" style="display:inline-block;">
+		<div class="Whereto_Find">
+		<p class="aboutUsTitle">Come Find Us</p>
+		<div class="animate__animated animate__zoomIn">
+			
+			<p class="ImgText" style="margin-bottom:10px;"> You can locate us at the Attenborough Building every Monday at 7pm. Join us for an evening filled with cinematic delights and community!</p>
+		</div>
+			<iframe class="MapIframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1211.0772812937778!2d-1.1249904641677058!3d52.62105094877713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4877612fc6c4f10f%3A0x88d91d2dcfae4665!2sAttenborough%20Building!5e0!3m2!1sen!2suk!4v1693074403951!5m2!1sen!2suk" style="width:80%; height:400px; margin-left:10%; margin-right:10%; " referrerpolicy="no-referrer-when-downgrade" ></iframe>
+		
+			
+		
+		</div>
+	</div>
+</div>		
+		
+		<!-- Social Media Links -->
+		<footer class="footer_Main">
+				<!-- div for social media icons in the footer -->
+				
+				<div class="footer_imgAstro">
+				</div>
+				
+
+					
+					<a href="https://www.instagram.com/leicesterfilm/"> 		
+						<div class="footer_sm-insta">
+						</div>
+						
+						
+					
+						
+					</a>
+					
+					<a href="mailto:su-film@le.ac.uk"> 		
+						
+						<div class="footer_sm-mail">
+						</div>
+						
+						
+						
+					
+						
+					</a>
+		
+		
+		
+		
+		</footer>	
+		
+	</body>
+</html>

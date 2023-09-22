@@ -1,0 +1,770 @@
+/* Font Types */
+/* ==========*/
+@font-face {
+  font-family: StarWars;
+  src: url("Fonts/DeathStar-VmWB.ttf");
+}
+
+@font-face {
+  font-family: GodFather;
+  src: url("Fonts/TheGodfather-rgRK.ttf");
+}
+@font-face {
+  font-family: JurassicPark;
+  src: url("Fonts/JurassicPark-BL48.ttf");
+}
+@font-face {
+  font-family: WantedText;
+  src: url("Fonts/Helldorado-eVrp.ttf");
+}
+
+body{
+	/* background-color:#D43C1B;  */
+	background-color:#fffdd0; 
+	overflow-x: hidden; /* Hide horizontal scrollbar */ 
+	
+}
+
+iframe{
+	margin-left:250px;
+	
+	
+}
+
+/* HomePage */
+/* ######## */
+
+/* Header-HP */
+.header {
+  padding: 40px;
+  text-align: center;
+  background: #1c2b43;
+  color: white;
+  
+}
+
+.Main_Title{
+	font-family:GodFather;
+	font-size:60px;
+	text-align:center;
+	/* text-decoration: underline; */
+	color:#fffff;
+	margin-top:-5px;	
+	
+}
+
+/* AboutUs */
+/* ############# */
+.aboutUsDiv{
+	
+	
+	
+}
+
+/* Nav Bar */
+
+.NavImg{
+		width:100%;
+		height:120px;
+}
+
+.HomeNav{
+	
+  font-family:StarWars;
+  position: absolute;
+   margin-top:-60px;
+  left:8%;
+  transform: translate(-50%, -50%);
+ margin-right:30px;
+  margin-left:30px;
+
+}
+
+
+.CommitteeNav{
+	width:200px;
+	
+  font-family:StarWars;
+  position: absolute;
+ margin-top:-60px;
+
+  left: 35%;
+  transform: translate(-50%, -50%);
+  margin-right:60px;
+  margin-left:30px;
+}
+
+.EventsNav{
+	 
+  font-family:StarWars;
+  position: absolute;
+  left: 60%;
+  margin-top:-60px;
+  transform: translate(-50%, -50%);
+ margin-right:30px;
+  margin-left:30px;
+}
+
+.GalleryNav{
+  font-family:StarWars;
+  position: absolute;
+  left: 85%;
+ margin-top:-60px;
+  transform: translate(-50%, -50%);
+  margin-right:30px;
+  margin-left:30px;
+}	
+	
+
+
+.Main_Nav {
+	
+	display: block;
+	min-width:400px;
+	height:120px;
+}
+
+/* AboutUs */
+/* ############# */
+
+.inlineContainer{
+	 display: flex;
+	 width:100%;
+	
+}
+
+.AboutUs_Outer{
+	width:100%
+	
+	height:300px;
+	background-color:#1e1e1e;
+	
+}
+.aboutUsDiv{
+	/* margin-top: 40px; */
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	min-height:180px;
+
+}
+
+.aboutUsTitle{
+	
+	font-family:GodFather;
+	font-size:40px;
+	color:White;
+	/* margin-top:70px; */
+	margin-bottom:10px;
+	text-align:center;
+}
+
+.aboutUsText{
+	font-family:Arial;
+	font-size:18px;
+	font-weight:750;
+	text-align:center;
+	margin-left:50px;
+	margin-right:50px;
+	color:White;	
+	
+}
+
+.HomeP_Events{
+	/* margin-top: 40px; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:10px;
+	
+	
+	
+	
+}
+.HomeEvents_box{
+	/* margin-top:2px; */
+	/* margin-right:2px; */
+	width:50%;
+	min-height:600px;
+	/* background-color:#f06f34; */
+	background-color:#1e1e1e;
+	
+}
+
+.Whereto_Find{
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-bottom:10px; */
+	
+	min-height:400px;
+	
+	
+}
+
+.Whereto_FindOuter{
+	
+	/* margin-top:2px; */
+	/* margin-bottom:10px; */
+	width: 50%;
+	min-height:600px;
+	/* background-color:#d63025; */
+	background-color:#1e1e1e;
+	
+	
+}
+
+.ImgText{
+	
+	font-family:Arial;
+	font-size:18px;
+	font-weight:750;
+	text-align:center;
+	margin-left:50px;
+	margin-right:50px;
+	color:White;	
+	
+	
+		/* color:white;    */
+		/* font-size: 25px;   */
+		/* font-weight:600;  */
+		/* padding-left: 20px; */
+		/* padding-top: 20px; */
+		/* display: inline-block; */
+		/* margin-right: 15%; */
+}
+
+.MapIframe{
+	/* Set the width to 100% of the container */
+    /* Set the desired height */
+	
+
+	
+}
+
+/* Slide Show CSS */
+/* ############### */
+.SlideShow_OuterBox{
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 30%;
+	width: 60%;
+	height:100px;
+	margin-bottom:10px;
+	
+	
+	
+}
+
+
+
+
+.SlideShow_Box{
+	/* Slideshow container */
+	/* height:300px; */
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+	
+	
+	
+.SlideShow_Title{
+	font-family:Arial;
+	font-size:20px;
+	font-weight:790;
+	color:White;
+	margin:60px;
+	margin-left:200px;	
+}
+	
+	
+.Site_Text{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:750;
+	text-align:center;
+	color:White;
+	
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.Slide_prev, .Slide_next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.Slide_next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.Slide_prev:hover, .Slide_next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.Slide_numbertext {
+  /* color: #f2f2f2; */
+  color:black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+   font-weight:750;
+}
+
+/* The dots/bullets/indicators */
+.Slide_dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.Slide_text{
+  /* color: #f2f2f2; */
+  color:black;
+  font-family:Arial;
+  font-size:18px;
+  font-weight:750;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  margin-bottom:125px;  
+	
+	
+}
+
+.Slide_active, .Slide_dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.Slide_fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Footer CSS */
+/* ################ */
+
+
+body::after {
+  content: '';
+  display: block;
+  height: 60px; /* Set same as footer's height */
+}
+	
+
+.footer_Main{
+		width:100%;
+		height:65px;
+		position: relative;
+		background-color:#fffceb;	
+		position:fixed;
+		text-align:center;
+		bottom:0;
+		
+}
+	
+
+
+.footer_imgAstro{
+		
+		background-image: url("Astro.png"); 
+		 
+		background-repeat:no-repeat;
+		background-size:cover; 
+		/* align-self:center; */
+		width:90px;
+		height:70px;
+		float:left;
+		margin-top:-5px;
+		 /* margin-right:-300px;  */
+		
+		
+	}
+	
+
+
+	.footer_sm-insta{
+		 background-image: url("instagram.png"); 
+		 align-items:center; 
+		background-repeat:no-repeat;
+		background-size:cover; 
+		/* align-self:center; */
+		width:40px;
+		height:40px;
+		float:right;
+		margin-top:10px;
+		margin-right:10px;
+		margin-left:10px;
+		display; inline;
+		
+		 
+		
+		 
+		
+		 
+		
+	}
+	
+	.footer_sm-insta:hover {
+		background-image:url("instagram-color.png");
+		 align-items:center; 
+		 
+		background-repeat:no-repeat;
+		background-size:cover; 
+		/* align-self:center; */
+		width:40px;
+		height:40px;
+		float:right;
+		margin-top:10px;
+		margin-right:10px;
+		margin-left:10px;
+		display; inline;
+		
+		
+		
+	}
+	
+	.footer_sm-mail{
+		 background-image: url("EmailClosed.png"); 
+		 align-items:center; 
+		background-repeat:no-repeat;
+		background-size:cover; 
+		/* align-self:center; */
+		width:40px;
+		height:40px;
+		margin-top:10px;
+		margin-left:10px;
+		
+		display; inline;
+		float:right;
+		 
+		
+		 
+		
+	}
+	
+	.footer_sm-mail:hover {
+		background-image:url("BlueTwitter.png");
+		  align-items:center; 
+		background-repeat:no-repeat;
+		background-size:cover; 
+		/* align-self:center; */
+		width:40px;
+		height:40px;
+		margin-top:10px;
+		margin-left:10px;
+		
+		display; inline;
+		float:right;
+		z-index:1;
+	}
+	
+	.footer_space{
+		height:100%;
+		
+
+		}
+
+
+
+	/* Committee Member Stuff */
+	/* ############################# */
+
+
+.Member_image {
+  /* border-radius:25%;	 */
+  display: block;
+  width: 200px;
+  height: 220px;
+  margin-left:39%;
+  margin-top:22%;
+  
+}
+
+
+.overlay { 
+  
+   top: 0; 
+   bottom: 0; 
+   left: 0; 
+   right: 0; 
+   height: 100%; 
+   width: 100%; 
+   opacity: 0; 
+   transition: .5s ease; 
+   background-color: #008CBA; 
+}
+
+ .Member_Box{ 
+	 position: relative;
+	 height:500px; 
+	 width:600px; 
+	 display: inline-block;
+	
+	margin-left:-35px;
+	margin-right:-100px;
+	background-image:url(WantedPoster.png);
+	background-image: left-align;
+	background-repeat: no-repeat;
+	background-size: 800px 100%;
+ } 
+ 
+
+
+ 
+ .MemberName_text {
+   margin-top:5px;
+   font-family:WantedText;
+   position: relative; 
+   text-align: center; 
+   margin-left:10%;
+}
+
+
+ .MemberPosition_text {
+   
+   font-size: 18px; 
+   font-family:WantedText;
+   position: relative; 
+   text-align: center; 
+   margin-left:10%;
+}
+
+.Member_List{
+	text-align:center;
+	align-items:center;
+	margin-top:10px;
+	
+	
+	
+}
+
+.Member_List li{
+	font-family:Arial;
+	/* color:White; */
+	display:inline;
+	 margin-right:10px;
+		
+	
+	
+}
+ 
+ .MemberName_text {
+   color: white;  
+   font-size: 20px; 
+   font-weight:600;
+   position: relative; 
+   text-align: center; 
+}
+
+
+ .MemberPosition_text {
+   color: #D4D4D4; 
+   font-size: 18px; 
+   font-weight:600;
+   position: relative; 
+   text-align: center; 
+}
+
+
+/* Gallery CSS */
+.Gallery_Title{
+	font-family:JurassicPark;
+	font-size:60px;
+	color:white;
+	margin:60px;
+	margin-left:-100px;
+}
+
+
+.Gallery_OuterBox{
+	margin-top: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+	width: 60%;
+	margin-bottom:10px;
+	
+	
+	
+}
+
+.Gallery_Box{
+	margin-top: 40px;
+	margin-bottom:10px;
+	width: 900px;
+	height:600px;
+	/* background-color:white; */
+	margin: auto;
+}
+
+.Gallery_Image{
+	
+	width:100px; 
+	height:150px; 
+	display: inline;
+	margin-left:1px;
+	margin-right:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+	
+	
+}
+.GroupCommitteeImage{
+	margin-top: 40px;
+	width:900px;
+	height:450px;
+	
+	
+	
+}
+.GroupComm_Box{
+	margin-top: 40px;
+	margin-bottom:10px;
+	width: 900px;
+	height:600px;
+	/* background-color:white; */
+	margin: auto;
+}
+
+	
+	/* Committee Member description css */
+	/* ////////////////////////////////////// */
+	.MembersList{
+		
+		background-image:url("WantedPoster.png");
+		background-repeat: no-repeat;
+		background-repeat: no-repeat;
+		background-size: 1000px 400px;
+	}
+	
+	.Position_Title{
+		color:white;
+		font:StarWars;
+		font-size:20px;		
+	}
+	.underline{
+		color:white;
+		font-size:20px;
+		
+		
+		
+	}
+	
+	.MembDescri_Box{
+	 /* position: relative; */
+	 /* background-color:#6077c9;   */
+	 height:auto; 
+	 width:100%;
+	 /* margin-left:35%; */
+	 /* margin-right: 20%; */
+	 margin-bottom:20px;
+	 margin-left:27%;
+	 /* align-items: center; */
+    /* justify-content: center; */
+	
+  }
+	
+	.MembTextBox{
+		display:inline-block;
+		
+		
+	}
+	
+	
+	.MembDescri_TitleBox{
+		width:70%;
+		height:30px;
+		 background-color:blue;  
+		 position: absolute;
+		margin-top:-250px;
+		
+		
+		
+		
+		
+	}
+	
+	.MembDescri_ImageBox{
+		width:200px; 
+		 height:300px; 
+		
+		
+		
+		
+	}
+	
+	.MembDescri_Title{
+		font-family:JurassicPark;
+		 color: white;   
+		 font-size: 60px;  
+		padding-left: 20px;
+		padding-top: 40px;
+		align-self:center;
+		
+	
+		
+	}
+	
+	.MembDescri_Text{
+		font-family:Abhaya Libre;
+		color:white;   
+		font-size: 16px;  
+		font-weight:600; 
+		padding-left: 20px;
+		padding-top: 20px;
+		
+		
+		/* overflow-wrap: break-word; */
+        /* word-wrap: break-word; */
+         /* word-break: break-word; */
+		/* float: left; */
+		
+		
+		
+	}
+	
+	.MembDescri_Image{
+		 /* border-radius:25%;  */
+		 width:200px; 
+		 height:300px; 
+		
+
+		 
+		
+		/* position:absolute; */
+		/* max-width: 110%; */
+		/* max-height:60%; */
+		
+		
+		
+	}

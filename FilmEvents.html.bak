@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+		<head>
+		<!-- Using a UTF-8 character type (Ctrl+k to comment) -->
+	   <meta charset= "UTF-8">
+	   
+	   <!-- Sizes website for smart phone(etc.) use  -->
+	   <meta name="viewport" content= "width-device-width,initial-scale-1.0">
+	   
+	   <!-- Name of website -->
+	   <title> Leicester Film Society</title>
+	   
+	   <!-- add icon link -->
+        <link rel = "icon" href = "FilmSocLogo.png"
+        type = "image/x-icon">
+	   
+	   <!-- Link to reset css -->
+	   <link rel="stylesheet" href="FilmSocCss/reset.css">
+	   
+	   <!-- Links to main CSS -->
+	   <link rel="stylesheet" href="FilmSocCss/FilmSocMain.css">
+	   
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+	</head>
+	<body>
+		
+		<div class="header">
+			<img class="Logo" src="FilmSocLogo.png" alt= "Film Society Logo" width = 130 height=130 style="display:inline-block; margin-right:95%; margin-bottom:-80px;"/> 
+			<h1 class="Main_Title" style="display:inline-block;">Leicester Film Society</h1>
+		</div>
+		
+		
+		<!-- Navigation bar -->
+		<div class="Main_Nav">
+			<img class="NavImg" src="FilmSocCss/FilmReel.png" alt="FilmReel"/>
+				
+					<p class="HomeNav"><a href="FilmSoc.html" >HOME</a></p>
+					
+					<p class="CommitteeNav"><a href="MeetCommittee.html">MEET THE COMMITTEE</a></p>
+					
+					<p class="EventsNav"><a href="FilmEvents.html">OUR EVENTS</a></p>
+					
+					<p class="GalleryNav"><a href="FilmGallery.html">THE GALLERY</a></p>
+				
+		</div>
+		
+	
+		</div>
+	</div>
+	<div class="AboutUs_Outer" style="height:100%;">
+	<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FLondon&hl=en_GB&src=NWJmOWQzMzA1NDc0ZTU0YWNjNDE1OWFjMjI2NDY2OTE5MGM3NWU3ZDQxNmVhNzM4MjUxOGNkYWFmYmJhZTExZEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" style="border-width:0" width="1011" height="600" frameborder="0" scrolling="no"></iframe>
+		
+	</div>
+		<!-- Social Media Links -->
+		<footer class="footer_Main">
+				<!-- div for social media icons in the footer -->
+				
+				<div class="footer_imgAstro">
+				</div>
+				
+
+					
+					<a href="https://www.instagram.com/leicesterfilm/"> 		
+						<div class="footer_sm-insta">
+						</div>
+						
+						
+					
+						
+					</a>
+					
+					<a href="https://twitter.com/Leicesterpolsoc"> 		
+						
+						<div class="footer_sm-twitter">
+						</div>
+						
+						
+						
+					
+						
+					</a>
+		
+		
+		
+		
+		</footer>	
+		
+	</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Using a UTF-8 character type (Ctrl+k to comment) -->
+	   <meta charset= "UTF-8">
+	   
+	   <!-- Sizes website for smart phone(etc.) use  -->
+	   <meta name="viewport" content= "width-device-width,initial-scale-1.0">
+	   
+	   <!-- Name of website -->
+	   <title> Leicester Politics Society</title>
+	   
+	   <!-- add icon link -->
+        <link rel = "icon" href = "TransparentPolSoc.png"
+        type = "image/x-icon">
+	   
+	   <!-- Link to reset css -->
+	   <link rel="stylesheet" href="PolCSS/reset.css">
+	   
+	   <!-- Links to main CSS -->
+	   <link rel="stylesheet" href="PolCSS/Politics_CSS_Main.css">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"  />
+	</head>
+	<body class="Home_Body" class="animate__animated animate__slideInLeft">
+	
+		<img class="Logo" src="TransparentPolSoc.png" alt= "Politics Society Logo" width = 100 height=130/>
+		<h1 class="Main_Title">Leicester Politics Society</h1>
+		
+		<nav class="Main_Nav">
+				<ul>
+					<li><a href="PoliticsSoc.html">HOME</a></li>
+					<li>|</li>
+					<li><a href="Commitee.html">MEET THE COMMITTEE</a></li>
+					<li>|</li>
+					<li><a href="Events.html">OUR EVENTS</a></li>
+					<li>|</li>
+					<li><a href="TheGallery.html">THE GALLERY</a></li>
+					<li>|</li>
+					<li><a href="TheBlog.html">OUR BLOG</a></li>
+					<li>|</li>
+					<li><a href="ThePodcast.html">PODCAST</a></li>
+				</ul>
+		</nav>
+		
+		<!-- ###Welcome Section### -->
+		<h2 class="Welcome_Title">Welcome To University Of Leicester Politics Society</h2>
+		<h2 class="Under_line">	____________________________________________</h2>
+		
+	
+	
+	
+	<div class="AboutUs_Box">
+		<p class="AboutUs_Title"><u class="Under_line"> About Us</u>:</p>
+		
+		
+		<p class="AbourUs_Text">Leicester PolSoc is a non-partisan student run politics society with an aim to create a safe environment for students to disseminate political ideas, thought and discussions along with increased social cohesion.
+Moreover, our goal is to highlight the importance of ‘why politics is necessary’ at a time when the world faces numerous challenges.</P>
+		
+	</div>
+		<div class="Gallery_OuterBox">
+		<p class="Gallery_Title"><u class="Under_line">Commitee Photo</u>:</p>
+		
+		
+		<div class="GroupComm_Box">
+			<!-- 24 pictures to be put in the gallery -->
+			<img class="GroupCommitteeImage" src="FullPolSoc.png" alt= "Politics Society Logo"/> 
+			
+		</div>
+	</div>	
+	
+	<div class="SlidwShow_OuterBox">
+		<p class="SlideShow_Title"><u class="Under_line"> Member Comments</u>:</p>
+				<!-- Slideshow container -->
+		<div class="SlideShow_Box">
+
+		  <!-- Full-width images with number and caption text -->
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">1 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<div class="Slide_text">Caption Text</div>
+		  </div>
+
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">2 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<div class="Slide_text">Caption Two</div>
+		  </div>
+
+		  <div class="mySlides Slide_fade">
+			<div class="Slide_numbertext">3 / 3</div>
+			<img src="SlideBackground.png" width="100%" height="300"/>
+			<div class="Slide_text">Caption Three</div>
+		  </div>
+
+		  <!-- Next and previous buttons -->
+		  <a class="Slide_prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="Slide_next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="Slide_dot" onclick="currentSlide(1)"></span>
+		  <span class="Slide_dot" onclick="currentSlide(2)"></span>
+		  <span class="Slide_dot" onclick="currentSlide(3)"></span>
+		</div>
+	
+		<script>
+				let slideIndex = 1;
+				showSlides(slideIndex);
+
+				function plusSlides(n) {
+				  showSlides(slideIndex += n);
+				}
+
+				function currentSlide(n) {
+				  showSlides(slideIndex = n);
+				}
+
+				function showSlides(n) {
+				  let i;
+				  let slides = document.getElementsByClassName("mySlides");
+				  let dots = document.getElementsByClassName("Slide_dot");
+				  if (n > slides.length) {slideIndex = 1}    
+				  if (n < 1) {slideIndex = slides.length}
+				  for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";  
+				  }
+				  for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				  }
+				  slides[slideIndex-1].style.display = "block";  
+				  dots[slideIndex-1].className += " active";
+				}
+		</script>
+	
+	
+	</div>
+		
+		
+		<!-- Social Media Links -->
+		<footer class="footer_Main" class="animate__animated animate__slideInLeft">
+				<!-- div for social media icons in the footer -->
+				<div class="footer_space">
+				<div class="footer_sm">
+					<a href="https://www.instagram.com/leicesterpolsoc/"> 		
+						<div class="footer_sm-insta">
+						</div>
+						
+						<div class="footer_sm-insta:hover">
+						</div>
+					
+						
+					</a>
+					
+					<a href="https://twitter.com/Leicesterpolsoc"> 		
+						<div class="footer_sm-twitter">
+						</div>
+						
+						<div class="footer_sm-twitter:hover">
+						</div>
+					
+						
+					</a>
+				</div>
+				</div>
+		
+		
+		
+		
+		
+		</footer>	
+		
+	</body>
+</html>
