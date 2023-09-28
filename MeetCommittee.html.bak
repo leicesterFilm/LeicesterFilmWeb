@@ -59,9 +59,9 @@
 						<!-- <div class="overlay"> -->
 						<!-- </div> -->
 						<div class="MemberName_text" style="color:black; font-size:30px;">President: Thomas Siddle</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Course: Zoology BSc</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Favourite Films: Jurassic Park &</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;"> Big Lebowski</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Course: Zoology BSc</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Favourite Films: Jurassic Park &</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;"> Big Lebowski</div>
 						
 				</div>
 				
@@ -83,9 +83,9 @@
 						
 						
 						<div class="MemberName_text" style="color:black; font-size:30px;">Treasuer: Edward Holloway</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Course: Law LLB</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Favourite Films: Moana & </div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;"> Spider-Man 3</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Course: Law LLB</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Favourite Films: Moana & </div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;"> Spider-Man 3</div>
 						
 				</div>
 				
@@ -98,9 +98,9 @@
 						<img src="WellBeing.png" alt="ExecSec" class ="Member_image">
 						
 						<div class="MemberName_text" style="color:black; font-size:30px;">Well-being: Ash Hilditch</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Course: History & Politics BA</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Favourite Films: Videorome & The </div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Iron Giant</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Course: History & Politics BA</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Favourite Films: Videorome & The </div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Iron Giant</div>
 				</div>
 				
 			</li>
@@ -115,9 +115,9 @@
 					<img src="Social.png" alt="Well-BeingOfficer" class ="Member_image">
 						
 						<div class="MemberName_text" style="color:black; font-size:30px;">Social: Ashton Cook</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Course: Film Studies</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Favourite Films: Inside Llewyn Davis</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">& Fantastic Mr.Fox</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Course: Film Studies</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Favourite Films: Inside Llewyn Davis</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">& Fantastic Mr.Fox</div>
 					
 				</div>
 				
@@ -131,9 +131,9 @@
 					<img src="AstroWBg.png" alt="TechOfficer" class ="Member_image">
 						
 						<div class="MemberName_text" style="color:black; font-size:30px;">Mascot: Yuri</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Course: Mascot PHD</div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;">Favourite Films: Alien & </div>
-						<div class="MemberPosition_text"style="color:#1e1e1e; font-size:20px;"> The Martian</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Course: Mascot PHD</div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;">Favourite Films: Alien & </div>
+						<div class="MemberPosition_text"style="color:black; font-size:20px;"> The Martian</div>
 						
 					
 				</div>
@@ -143,6 +143,7 @@
 	
 	</div>	
 		
+		<!-- Social Media Links -->
 		<!-- Social Media Links -->
 		<footer class="footer_Main">
 				<!-- div for social media icons in the footer -->
@@ -161,9 +162,9 @@
 						
 					</a>
 					
-					<a href="https://twitter.com/Leicesterpolsoc"> 		
+					<a href="mailto:su-film@le.ac.uk"> 		
 						
-						<div class="footer_sm-twitter">
+						<div class="footer_sm-mail">
 						</div>
 						
 						
